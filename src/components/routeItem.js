@@ -1,17 +1,19 @@
 
 import React from 'react'; 
-import {Text, View} from 'react-native';
-
+import {Text, View, StyleSheet, TouchableHighlight} from 'react-native';
+import colors from "../config/colors";
  
 
- const RouteItem=(props)=> {
+ const RouteItem=({grade,name,onPress})=> {
    
     return(
         
-        <View>
-          <Text>{props.grade}</Text>
-          <Text>{props.name}</Text>    
-       </View>
+         <TouchableHighlight underlayColor={colors.light} onPress={onPress}>
+            <View>
+              <Text>{grade}</Text>
+              <Text>{name}</Text>    
+          </View>
+        </TouchableHighlight>
     );
 
  };

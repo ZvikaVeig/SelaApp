@@ -10,11 +10,12 @@ import ListItemSeparator from "./src/components/listItemSeparator.js";
  
 export default class App extends Component {
 
+ 
 
  goToRouteScreen(code) {
     //const {componentId} = this.props;
     //navUtils.pushDetailsScreen({componentId, code});
-      console.log("******route selected " );
+      
 
     }
 
