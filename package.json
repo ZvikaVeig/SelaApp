@@ -6,6 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start:ziki": "react-native start --verbose --port=7070",
     "test": "jest",
     "lint": "eslint ."
   },
